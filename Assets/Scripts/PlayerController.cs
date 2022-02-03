@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     float horizontal = 0f, vertical = 0f;
 
     bool jump = false;
-    bool sprint = false;
+
 
     public float speed = 1f;
     public float jumpPower = 100f;
@@ -41,11 +41,6 @@ public class PlayerController : MonoBehaviour
     void OnJump()
     {
         jump = true;
-    }
-
-    void OnSprint()
-    {
-        
     }
 
     // Update is called once per frame

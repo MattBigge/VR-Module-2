@@ -16,7 +16,7 @@ public class CollectibleScript : MonoBehaviour
     {
         float angle = Time.frameCount % 314 / 100f;
         Vector3 prev = transform.position;
-        transform.position = new Vector3(prev.x, Mathf.Sin(angle) + 1, prev.z);
+        transform.position = new Vector3(prev.x, Mathf.Sin(angle) + 2, prev.z);
         transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
     }
 }
