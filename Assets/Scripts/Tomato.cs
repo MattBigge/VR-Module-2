@@ -50,7 +50,7 @@ public class Tomato : MonoBehaviour
             count++;
             SetScoreText();
             collectTone.Play();
-            this.gameObject.SetActive(false);
+            //this.gameObject.SetActive(false);
 
             countOfTomatoes--;
             SetAmmoText();
